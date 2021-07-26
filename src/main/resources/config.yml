@@ -1,0 +1,17 @@
+mail:
+  host: localhost
+  port: 993
+  username: username
+  password: password
+sql:
+  host: localhost
+  port: 3306
+  database: database
+  username: username
+  password: password
+tr:
+  password: password
+system:
+  decryptedPath: /home/services/decrypted/
+  whiteListedSender:
+    - service@traderepublic.com
